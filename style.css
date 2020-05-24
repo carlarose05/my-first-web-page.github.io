@@ -1,9 +1,13 @@
-h3 {
-font-size: 34px;
-	color: blue;
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+p{
+  text-align: center;
 }
-div{
-background: lightgreen	
+h1{
+  text-align: center;
+}
+h2 {
+font-size: 34px;
+	color: white;
 }
 
 .navbar {
@@ -30,10 +34,9 @@ background: lightgreen
 background: black;
 color:white;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 align-items: center;
 }
-
 .line-dark{
 background: purple;
 width: 50% ;
@@ -48,4 +51,7 @@ height: 10px;
 background:orange;
 width: 20%;
 height: 10px;
+}
+h2 {
+ background: pink;
 }
