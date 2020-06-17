@@ -17,7 +17,8 @@ h2, h3, h4 {
 }
 
 a, a:hover {
-  text-decoration: none;
+  text-decoration: none
+};
 }
 
 p, ul, ol {
@@ -56,7 +57,7 @@ p, ul, ol {
 .my-btn {
   display: inline-block;
   color: white;
-  background: #C86472;
+  background:purple;
   margin: 20px;
   padding: 20px;
   border-radius: 5px;
@@ -92,7 +93,7 @@ p, ul, ol {
 }
 
 .line-transparent {
-background: black;
+background: purple;
 color:white;
 display: flex;
 justify-content: space-between;
@@ -146,6 +147,9 @@ height: 10px;
   border-radius: 5px;
   box-shadow: 5px 5px 10px grey;
   width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px
 }
 
 .card-img-top {
@@ -184,6 +188,26 @@ height: 10px;
   color: white;
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.flash {
+  padding: 16px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.2);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.flash-danger {
+  border: 6px 
+  color: purple;
+}
+
+.typeform-share {
+  color:purple;
 }
 
 /*code pen*/
